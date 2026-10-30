@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+*.err
+results/E4_batch/
+results/E5_batch/
+results/_check_*/
+results/single_*.json

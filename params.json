@@ -1,0 +1,31 @@
+{
+  "name": "Public Response Field (PRF)",
+  "version": "1.0.0",
+  "seed": 2026,
+  "resolution": 80,
+  "domain": {"u1": [0, 100], "u2": [0, 100], "u3": [0, 100]},
+  "value_range": [100, 160],
+  "affine_map": "V = 100 + 60 * (V_raw - min) / (max - min)",
+  "trend": [6.0, 3.0, 5.0],
+  "oned_profiles": {"count_per_axis": 4, "amp": [0.5, 1.6], "center": [5, 95], "width": [8, 18]},
+  "islands_3d": {"count": 48, "center": [8, 92], "width": [4.5, 11.0], "anisotropy": [0.55, 1.0], "amplitude": [2.0, 6.0], "second_lobe": {"amplitude_ratio": 0.45, "width_ratio": 0.55, "offset_std": 1.2}},
+  "pockets_3d": {"count": 14, "center": [8, 92], "width": [5.0, 12.0], "amplitude": [-2.5, -1.0]},
+  "corridors_3d": {"count": 5, "start": [30, 70], "amplitude": [12, 28], "wavelength": [40, 80], "phase": [0, 6.3], "n_centers": 30, "sigma": 2.8, "depth": [2.0, 3.8]},
+  "ripple_3d": {"count": 4, "amplitude": [0.05, 0.12], "wavelength": [25, 60], "other_axis_factors": [1.3, 0.8]},
+  "rng": {"generator": "numpy.random.default_rng", "seed": 2026, "note": "draw order is part of the reproducibility contract; see make_field.py"},
+  "files": {
+    "canonical_npz": {"path": "data/canonical_3d_seed2026.npz", "bytes": 1704108, "sha256": "8C1E21F7D10AD0EF6A5A5A7AC40E622DC10E5622EFFF3B1F7E416F9E71634106"},
+    "generator": {"path": "code/make_field.py", "sha256": "C384F0C113F7F9DABBC7D09A0F33EFF34703326362A09520B05EDAED7C4D5938"},
+    "audit": {"path": "audit/audit.json", "sha256": "computed by audit_field.py"}
+  },
+  "audit_gate_G0": {
+    "n_slices": 15,
+    "min_peaks_per_slice": 5,
+    "max_high_lines": 0,
+    "additive_r2": 0.8208,
+    "abs_res_gt1_frac": 0.6048,
+    "passed": true
+  },
+  "license": {"code": "MIT", "data": "CC-BY-4.0 (pending confirmation)"},
+  "doi": "pending"
+}

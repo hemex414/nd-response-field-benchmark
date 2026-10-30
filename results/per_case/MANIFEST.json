@@ -1,0 +1,148 @@
+{
+  "1": {
+    "rows": 12000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "lattice",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "a365926bd30f7a7234e5503c6957c10d16ece11352a8bdf8d751b58f34c10d95",
+    "bytes": 943275
+  },
+  "2": {
+    "rows": 12000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "lattice",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "0d4f378ce0b959f47ba6bbe1c156fdad611e48beeb47fc3ad36ce073cb0a9fa6",
+    "bytes": 941203
+  },
+  "3": {
+    "rows": 12000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "lattice",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "03a204a728af610d014062bf7cf5d97b7d6cc035bc8dc52530514a2758f0e257",
+    "bytes": 946444
+  },
+  "4": {
+    "rows": 11000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "ff3caa619258ea845707d4a67cc00df591aaa5d9d02d5c8631089946dcbdf370",
+    "bytes": 647557
+  },
+  "5": {
+    "rows": 11000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "e326f3dde4e6de46c8da232eaa03e802b86a986ae211828c4fddbc53b2890daf",
+    "bytes": 647341
+  },
+  "6": {
+    "rows": 11000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "d852007f93fe1910391d21e2daa2759bd2b0bbb700769cdaee6aaae41560939b",
+    "bytes": 647242
+  },
+  "7": {
+    "rows": 11000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "gd",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "ac28714732e4f736d42e0ca7a85434e92e448e9dd0cf8fd77f7ad819646608d0",
+    "bytes": 647454
+  },
+  "8": {
+    "rows": 10000,
+    "methods": [
+      "astar",
+      "bit_star",
+      "chomp",
+      "cotra_j",
+      "fmm",
+      "ga",
+      "random",
+      "rrt_star",
+      "sa",
+      "theta_star"
+    ],
+    "sha256": "f3d210d8d1c1fd9fd7926018db3bfffd762af036c054ac7d4329e94efaa743fa",
+    "bytes": 569067
+  }
+}

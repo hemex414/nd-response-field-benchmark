@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the corresponding paper and this release."
+title: "Public N-D Response-Field Benchmark"
+version: "1.0.0"
+date-released: "2026-10-28"
+authors:
+  - family-names: "He"
+    given-names: "Mengxuan"
+license: "MIT"

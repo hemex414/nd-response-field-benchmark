@@ -1,0 +1,588 @@
+{
+  "generated_at": "2026-10-26 18:34:14",
+  "ns": [
+    2,
+    3
+  ],
+  "n_cases": 16,
+  "workers": 12,
+  "batch_size": 16,
+  "tests": {
+    "T1_single_smoke": {
+      "rows": [
+        {
+          "N": 2,
+          "method": "fmm",
+          "ok": true,
+          "J": 134.6860584075252,
+          "feasible": true,
+          "runtime_s": 0.06190960000000001,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "astar",
+          "ok": true,
+          "J": 135.09903455715954,
+          "feasible": true,
+          "runtime_s": 0.009741800000000023,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "theta_star",
+          "ok": true,
+          "J": 135.9796518572734,
+          "feasible": true,
+          "runtime_s": 0.05180580000000001,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "lattice",
+          "ok": true,
+          "J": 135.1307860928673,
+          "feasible": true,
+          "runtime_s": 0.2177056,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "rrt_star",
+          "ok": true,
+          "J": 136.51349201589034,
+          "feasible": true,
+          "runtime_s": 0.6577961,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "bit_star",
+          "ok": true,
+          "J": 136.2037550917157,
+          "feasible": true,
+          "runtime_s": 1.4778043,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "ga",
+          "ok": true,
+          "J": 134.811670982319,
+          "feasible": true,
+          "runtime_s": 0.19705590000000006,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "gd",
+          "ok": true,
+          "J": 134.49532120010122,
+          "feasible": true,
+          "runtime_s": 0.1340653999999999,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "sa",
+          "ok": true,
+          "J": 136.54200723121005,
+          "feasible": true,
+          "runtime_s": 1.0191022000000003,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 2,
+          "method": "chomp",
+          "ok": true,
+          "J": 135.5690225239625,
+          "feasible": true,
+          "runtime_s": 0.15971949999999957,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "fmm",
+          "ok": true,
+          "J": 125.8858536433876,
+          "feasible": true,
+          "runtime_s": 7.012852399999999,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "astar",
+          "ok": true,
+          "J": 126.79806366552774,
+          "feasible": true,
+          "runtime_s": 2.4719315,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "theta_star",
+          "ok": true,
+          "J": 127.09926360416998,
+          "feasible": true,
+          "runtime_s": 12.2637413,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "lattice",
+          "ok": true,
+          "J": 127.563905579037,
+          "feasible": true,
+          "runtime_s": 16.5172529,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "rrt_star",
+          "ok": true,
+          "J": 127.5683707597442,
+          "feasible": true,
+          "runtime_s": 1.1094654000000048,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "bit_star",
+          "ok": true,
+          "J": 127.30173424191932,
+          "feasible": true,
+          "runtime_s": 5.134743799999995,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "ga",
+          "ok": true,
+          "J": 126.4476673296972,
+          "feasible": true,
+          "runtime_s": 0.2683237000000034,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "gd",
+          "ok": true,
+          "J": 126.25128675403253,
+          "feasible": true,
+          "runtime_s": 2.157361800000004,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "sa",
+          "ok": true,
+          "J": 127.41776635295642,
+          "feasible": true,
+          "runtime_s": 3.348051699999999,
+          "status": "ok",
+          "error": null
+        },
+        {
+          "N": 3,
+          "method": "chomp",
+          "ok": true,
+          "J": 127.57797959399367,
+          "feasible": true,
+          "runtime_s": 0.5809254999999993,
+          "status": "ok",
+          "error": null
+        }
+      ],
+      "passed": true
+    },
+    "T2_batch_vs_single_N2": {
+      "N": 2,
+      "passed": true,
+      "rows": [
+        {
+          "method": "fmm",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 0.7602633999999995,
+          "t_batch_s": 0.8521169999999998
+        },
+        {
+          "method": "astar",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 0.2763867000000033,
+          "t_batch_s": 0.7002252000000055
+        },
+        {
+          "method": "theta_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 2.980368800000001,
+          "t_batch_s": 1.444043299999997
+        },
+        {
+          "method": "lattice",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 36.1945399,
+          "t_batch_s": 8.120361299999999
+        },
+        {
+          "method": "rrt_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 9.697229199999995,
+          "t_batch_s": 3.288702799999996
+        },
+        {
+          "method": "bit_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 23.836589100000012,
+          "t_batch_s": 5.555238099999997
+        },
+        {
+          "method": "ga",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 2.842170943040401e-14,
+          "max_abs_dT": 3.552713678800501e-15,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 2.8961142999999936,
+          "t_batch_s": 0.6198100000000011
+        },
+        {
+          "method": "gd",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 5.21802169999998,
+          "t_batch_s": 5.467125899999985
+        },
+        {
+          "method": "sa",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 14.93879290000001,
+          "t_batch_s": 7.921635199999997
+        },
+        {
+          "method": "chomp",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 9.739008532960725e-08,
+          "max_abs_dT": 3.552713678800501e-15,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 2.561003400000004,
+          "t_batch_s": 2.0097888999999896
+        }
+      ]
+    },
+    "T3_batch_vs_single_N3": {
+      "N": 3,
+      "passed": true,
+      "rows": [
+        {
+          "method": "fmm",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 117.0808021,
+          "t_batch_s": 28.103671700000007
+        },
+        {
+          "method": "astar",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 41.35102039999998,
+          "t_batch_s": 10.495736800000032
+        },
+        {
+          "method": "theta_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 338.20161429999996,
+          "t_batch_s": 86.73336130000007
+        },
+        {
+          "method": "lattice",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 262.63629360000004,
+          "t_batch_s": 56.51923030000012
+        },
+        {
+          "method": "rrt_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 16.764531800000213,
+          "t_batch_s": 4.178644099999929
+        },
+        {
+          "method": "bit_star",
+          "kind": "process_pool",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 79.66812300000015,
+          "t_batch_s": 17.274993799999947
+        },
+        {
+          "method": "ga",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 2.842170943040401e-14,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 4.193639299999859,
+          "t_batch_s": 1.968338200000062
+        },
+        {
+          "method": "gd",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 34.756735100000014,
+          "t_batch_s": 35.27961589999995
+        },
+        {
+          "method": "sa",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 0.0,
+          "max_abs_dT": 0.0,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 52.59467890000019,
+          "t_batch_s": 19.677338299999974
+        },
+        {
+          "method": "chomp",
+          "kind": "tensor_batch",
+          "ok": true,
+          "max_abs_dJ": 8.454298949800432e-08,
+          "max_abs_dT": 3.552713678800501e-15,
+          "same_feasible": true,
+          "mismatches": [],
+          "t_single_s": 9.596716999999899,
+          "t_batch_s": 11.48652919999995
+        }
+      ]
+    },
+    "T5_1000_cases": {
+      "passed": null,
+      "status": "not_run",
+      "note": "per instruction: run N=2/3 x16 acceptance first; 1000-case sweep follows only after this matrix is green"
+    },
+    "T6_reproducibility": {
+      "passed": true,
+      "rows": [
+        {
+          "method": "fmm",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "astar",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "theta_star",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "lattice",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "rrt_star",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "bit_star",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "ga",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "gd",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "sa",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        },
+        {
+          "method": "chomp",
+          "max_abs_dJ_rerun": 0.0,
+          "ok": true
+        }
+      ]
+    }
+  },
+  "resources": {
+    "workers": 12,
+    "batch_size": 16,
+    "cpu_count": 20,
+    "rows": [
+      {
+        "method": "fmm",
+        "T_single16": 0.7596230999999989,
+        "T_batch16": 0.8016141999999036,
+        "speedup": 0.9476168211592189,
+        "rss_mb": 1.89453125
+      },
+      {
+        "method": "astar",
+        "T_single16": 0.23562969999989036,
+        "T_batch16": 0.7058567999999923,
+        "speedup": 0.33382082598041546,
+        "rss_mb": 0.0
+      },
+      {
+        "method": "theta_star",
+        "T_single16": 3.0986840000000484,
+        "T_batch16": 1.533070799999905,
+        "speedup": 2.0212269387690642,
+        "rss_mb": 0.05859375
+      },
+      {
+        "method": "lattice",
+        "T_single16": 36.26807309999981,
+        "T_batch16": 8.218204600000035,
+        "speedup": 4.4131382540658155,
+        "rss_mb": 0.5234375
+      },
+      {
+        "method": "rrt_star",
+        "T_single16": 9.447232400000075,
+        "T_batch16": 3.416822899999943,
+        "speedup": 2.7649171983716903,
+        "rss_mb": 0.0390625
+      },
+      {
+        "method": "bit_star",
+        "T_single16": 23.894273099999964,
+        "T_batch16": 5.585031200000003,
+        "speedup": 4.278270298651143,
+        "rss_mb": -2.31640625
+      },
+      {
+        "method": "ga",
+        "T_single16": 2.879536299999927,
+        "T_batch16": 0.5865714999999909,
+        "speedup": 4.90909684497111,
+        "rss_mb": 1.98046875
+      },
+      {
+        "method": "gd",
+        "T_single16": 5.139062099999819,
+        "T_batch16": 5.369750500000009,
+        "speedup": 0.9570392702602868,
+        "rss_mb": 0.28515625
+      },
+      {
+        "method": "sa",
+        "T_single16": 14.791358400000036,
+        "T_batch16": 7.726784999999836,
+        "speedup": 1.9142966188395756,
+        "rss_mb": 0.015625
+      },
+      {
+        "method": "chomp",
+        "T_single16": 2.584553600000163,
+        "T_batch16": 2.0313386999998784,
+        "speedup": 1.272340058307518,
+        "rss_mb": 0.52734375
+      }
+    ],
+    "peak_rss_mb": 66.09765625
+  },
+  "all_passed": true
+}
