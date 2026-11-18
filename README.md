@@ -4,6 +4,12 @@ A synthetic, dimensionless, reproducible N-dimensional response-field benchmark 
 
 > This repository contains only the public benchmark. It does not contain measured data, surrogate models, or restricted information. Coordinates and field values are dimensionless and carry no physical unit.
 
+## Planner version
+
+CoTra-J uses the rate-anchored duration wire: dt_k = tmin_k(p) + (T_b - sum_j tmin_j(p)) * w_k with w = warp(delta), where 	min_k is the per-segment rate floor and the placement axis solves the fixed point 	au <- cumsum(dt)/T_b. The results in 
+esults/E4_batch/, 
+esults/FINAL_BY_N.md, COMPARISON_TABLE.md and TIMING_TABLE.md were regenerated with this version (2026-10-29), with K=8, rho=0.2, delta=0.02, path-only 1024/200 + 512/150 and joint 512x250 + 512x150.
+
 ## 1. Contents
 
 ```
